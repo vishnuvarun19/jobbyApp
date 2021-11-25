@@ -1,0 +1,244 @@
+.profile-pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: red;
+  width: 100%;
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 25vh;
+  border-radius: 20px;
+}
+
+.profile-button-container {
+  height: 21vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.profile-button {
+  background-color: #6366f1;
+  color: white;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Bree Serif';
+}
+
+.profile-image {
+  height: 6vh;
+}
+
+.profile-heading {
+  font-size: 15px;
+}
+
+.profile-para {
+  font-size: 12px;
+}
+
+.jobs-bg {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.input-checkbox {
+  width: 30px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.employee-list-item {
+  color: white;
+  display: flex;
+}
+
+.list-heading {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.employee-list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+
+.bottom-one {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  width: 100%;
+  border-style: solid;
+  color: white;
+}
+.bottom-two {
+  width: 60%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-bottom-section {
+  padding: 30px;
+  display: flex;
+}
+.input-container-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  width: 50%;
+  border-radius: 5px;
+}
+.search-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.search-button {
+  height: 40px;
+  background-color: #7e858e;
+  border: none;
+  outline: none;
+}
+
+.input-search {
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.job-item-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-list-container {
+  padding: 0px;
+  list-style-type: none;
+  width: 90%;
+}
+.job-list-item {
+  color: white;
+  padding: 20px;
+  background-color: #202020;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.star-fill-color {
+  color: yellow;
+}
+
+.logo-pro {
+  height: 10vh;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+}
+
+.rating-contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  height: 5vh;
+}
+
+.job-name-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.para-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+.location-salary {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 5vh;
+}
+.location-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  margin-right: 20px;
+}
+.localtio-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-icon {
+  font-size: 20px;
+}
+
+.location-container-spec {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.package-pro {
+  display: flex;
+  align-items: center;
+}
+.description-container {
+  width: 80%;
+}
+
+.link-class {
+  outline: none;
+  text-decoration: none;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.nojobs-pro {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.no-jobs-image {
+  height: 50vh;
+}

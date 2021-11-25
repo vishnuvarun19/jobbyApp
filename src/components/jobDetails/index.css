@@ -1,0 +1,284 @@
+.job-bg {
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.job-details {
+  color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .job-details {
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+.job-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+@media screen and (max-width: 768px) {
+  .job-logo-container {
+    width: 100%;
+  }
+}
+
+.rating-contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  height: 5vh;
+}
+
+.job-name-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-para-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .job-para-title {
+    font-size: 20px;
+  }
+}
+.description-link {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor-link {
+  text-decoration: none;
+  font-size: 25px;
+}
+.job-location-salary {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 10vh;
+
+  font-size: 20px;
+}
+.job-location-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 5vh;
+  width: 30%;
+  align-items: center;
+  margin-right: 20px;
+}
+.job-location-top {
+  display: flex;
+  justify-content: space-between;
+
+  width: 40%;
+  height: 10vh;
+}
+@media screen and (max-width: 768px) {
+  .job-location-top {
+    width: 60%;
+  }
+}
+
+.job-location-icon {
+  font-size: 20px;
+}
+
+.job-location-container-spec {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.job-package-pro {
+  display: flex;
+  align-items: center;
+}
+.job-description-container {
+  width: 90%;
+}
+.job-para {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .job-para {
+    font-size: 17px;
+  }
+}
+
+.skills-container {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+  }
+}
+.des-head {
+  font-size: 20px;
+}
+.skills-item {
+  display: flex;
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.skill-image {
+  height: 10vh;
+}
+
+.skill-para {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.life-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para-des {
+  width: 65%;
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .life-container {
+    flex-direction: column;
+  }
+  .para-des {
+    width: 100%;
+    font-size: 17px;
+  }
+}
+.life-image {
+  height: 25vh;
+}
+
+.similar-container {
+  list-style-type: none;
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .similar-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.similar-list-item {
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-list-item {
+    padding: 0px;
+    width: 85%;
+  }
+}
+
+.logo-cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.job-location {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.job-top {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.simi-des {
+  font-size: 20px;
+}
+
+.simi-para {
+  font-size: 15px;
+}
+
+.simi-description-container {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .simi-description-container {
+    width: 80%;
+  }
+}
+
+.simi-location-icon {
+  font-size: 30px;
+}
+
+.similar-jobs-sugesstion {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-jobs-sugesstion {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .job-bg {
+    padding: 0px;
+  }
+  .name-head {
+    font-size: 20px;
+  }
+}
